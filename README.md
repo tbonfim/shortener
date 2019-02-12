@@ -1,6 +1,6 @@
-#Shortener
+# Shortener
 
-##Approach
+## Approach
 When I started thinking about this test, to avoid having to have a database behind the solution, I decided to implement it using cryptography. This way, only handling crypting would solve the duplication problem without any comparison step dependent of database usage.
 
 During the work, I figured out that output size depends on the input size, so, this doesn't always fix the shortening issue, as the output for long urls maybe even longer than itself. Then it's more like an URL mapper then a shortener. 
