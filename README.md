@@ -14,9 +14,11 @@ The first thing that come to my mind when thinking about this test was to have a
 * Additionally, if a URL has already been shortened by the system, and it is entered a second time, the first shortened URL should be given back to the user.
 
 ## Dependencies
-Node
-Express
-Is-URL
+* Node
+* Express
+* Is-URL
+* Mocha
+
 ## Available Scripts
 
 In the project directory, you can run:

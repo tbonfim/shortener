@@ -7,6 +7,10 @@
     "is-url": "^1.2.4"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"  
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
