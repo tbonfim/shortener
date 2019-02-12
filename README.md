@@ -29,6 +29,6 @@ Runs the app in the development mode.<br>
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 
-<!-- ### `npm test`
+### `npm test`
 
-Launches the test runner in the interactive watch mode.<br> -->
+Launches the test runner in the interactive watch mode.<br>
