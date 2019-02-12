@@ -1,0 +1,12 @@
+{
+  "name": "shortener",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "is-url": "^1.2.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
