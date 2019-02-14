@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.post('/submit-form', (req, res) => {
   const url = req.body.url;
   try {
-    res.send('<a href="http://localhost:'+ port +'/'+ crypt.encrypt(url) +'">' + crypt.encrypt(url) + '</a>');
+    res.send('<a href="http://localhost:'+ port +'/'+ crypt.encrypt(url) +'">http://localhost:' +  crypt.encrypt(url) + '</a>');
   }
   catch(exception) {
     console.log('Couldn\'t proccess your request');
