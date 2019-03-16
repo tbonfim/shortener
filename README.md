@@ -1,5 +1,6 @@
 # Shortener
 
+ps.: it doesn't make an url short :( 
 ## Approach
 When I started thinking about this test, to avoid having to have a database behind the solution, I decided to implement it using cryptography. This way, only handling crypting would solve the duplication problem without any comparison step dependent of database usage.
 
